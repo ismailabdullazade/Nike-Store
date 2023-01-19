@@ -9,7 +9,7 @@ const Footer = ({ footerAPI: { titles, links } }) => {
   return (
    <>
       <footer className='bg-theme pt-7 pb-5'>
-        <div className='nike-container text-slate-200'>
+        <div className='nike-container text-slate-200 mb-3'>
           <div className='grid items-start grid-cols-3 max-w-2xl w-full m-auto md:max-w-none md:gap-5'>
             {titles.map((val, i) => (
               <div key={i} className="grid items-center">
@@ -23,9 +23,6 @@ const Footer = ({ footerAPI: { titles, links } }) => {
                 ))}
               </ul>
             ))}
-          </div>
-          <div className='mt-5 text-center'>
-            <p className='text-sm md:text-center'>Copyright<sup className='text-base font-bold'>&copy;</sup> All Reserved Rights <span className='font-semibold'>JSSTACK DEVELOPERS {Year}</span></p>
           </div>
         </div>
       </footer>
