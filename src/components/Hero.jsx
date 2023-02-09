@@ -27,6 +27,7 @@ const Hero = ({ heroapi: { title, subtitle, btntext, img, sociallinks, videos } 
                 <SocialLink
                   key={i}
                   icon={val.icon}
+                  alt={val.alt}
                 />
               ))}
             </div>

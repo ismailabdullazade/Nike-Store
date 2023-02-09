@@ -43,11 +43,11 @@ const heroapi = {
     { imgsrc: vcover3, clip: clip },
   ],
   sociallinks: [
-    { icon: facebook },
-    { icon: messenger },
-    { icon: instagram },
-    { icon: twitter },
-    { icon: youtube },
+    { icon: facebook, alt:"https://www.facebook.com/nike/" },
+    { icon: messenger, alt:"https://www.facebook.com/nike/" },
+    { icon: instagram, alt:"https://www.instagram.com/nike/?hl=en" },
+    { icon: twitter, alt:"https://twitter.com/Nike?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" },
+    { icon: youtube, alt:"https://www.youtube.com/@nike" },
   ],
 };
 
